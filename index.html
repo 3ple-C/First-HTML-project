@@ -6,10 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transco</title>
-    <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <!--Bootstrap CSS-->
+    <!-- <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'> -->
+
+    <!--Bootstrap JS-->
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
     <script src="https://kit.fontawesome.com/4534c556c8.js" crossorigin="anonymous"></script>
 </head>
 
@@ -54,7 +60,6 @@
 
         <!-- Header picture -->
         <div class="header container-fluid d-flex ">
-            <!-- <div class=""> -->
             <div class="row align-items-center text-white py-4 px-1 header-main">
                 <div class="col-1 d-flex flex-column gap-4 align-items-start media_links fs-5">
                     <i class="fa-brands fa-youtube"></i>
@@ -70,25 +75,26 @@
 
                     <button
                         class="btn btn-custom  border-0 text-white text-start d-flex align-items-center justify-content-between rounded-3 fw-bold mt-5 gap-4">Read
-                        More <span class=" fw-normal btn-arrow rounded-3">></span></button>
+                        More <span class=" fw-normal btn-arrow rounded-3">></span>
+                    </button>
                 </div>
 
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                     <div class="img-overlay rounded-circle">
-                        <img src="images/delivery_photo-3.jpg" alt="delivery_photo"
+                        <img src="assets/images/delivery_photo-3.jpg" alt="delivery_photo"
                             class="img-fluid overlay-img w-100 h-100 rounded-circle">
                     </div>
                 </div>
             </div>
-            <!-- </div> -->
         </div>
+
         <!-- Services section -->
         <div class="container">
             <div class="row services px-lg-3 mx-lg-5 mx-sm-0 px-sm-0 px-xs-0">
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 service-card px-4 py-4  position-relative">
                     <div class="premium ">
                         <div class="service_img-1 mb-4">
-                            <img src="images\premium_8905179.png" alt="" class="img-fluid">
+                            <img src="assets/images/premium_8905179.png" alt="" class="img-fluid">
                         </div>
 
                         <h4 class=" service_head mb-lg-5">Premium <br> Logistics Support</h4>
@@ -113,7 +119,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 service-card px-4 py-4 position-relative">
                     <div class="premium ">
                         <div class="service_img-1 mb-4">
-                            <img src="images\premium_8905179.png" alt="" class="img-fluid">
+                            <img src="assets/images/premium_8905179.png" alt="" class="img-fluid">
                         </div>
 
                         <h4 class=" service_head mb-lg-5 ">Premium <br> Logistics Support</h4>
@@ -138,7 +144,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 service-card px-4 py-4 position-relative">
                     <div class="premium ">
                         <div class="service_img-1 mb-4">
-                            <img src="images\premium_8905179.png" alt="" class="img-fluid">
+                            <img src="assets/images/premium_8905179.png" alt="" class="img-fluid">
                         </div>
 
                         <h4 class=" service_head mb- mb-lg-5 ">Premium <br> Logistics Support</h4>
@@ -163,7 +169,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 service-card px-4 py-4 position-relative">
                     <div class="premium ">
                         <div class="service_img-1 mb-4">
-                            <img src="images\premium_8905179.png" alt="" class="img-fluid">
+                            <img src="assets/images/premium_8905179.png" alt="" class="img-fluid">
                         </div>
 
                         <h4 class=" service_head mb- mb-lg-5 ">Premium <br> Logistics Support</h4>
@@ -188,10 +194,31 @@
 
         <!-- About Section -->
         <div class="about_section">
-            <div class="container">
+            <div class="container ms-0">
                 <div class="row ">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 position-relative h-10 ">
-                        
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="img_animate d-flex flex-column position-relative ">
+
+                            <img src="assets/images/pexels-tima-miroshnichenko-6169061.jpg" alt="image-1"
+                                class="img-fluid img-one position-absolute ">
+                            <img src="assets/images/pexels-screeny-11053641.jpg" alt="image-2"
+                                class="position-absolute img-fluid -25 img-two">
+                            <div
+                                class="img-fluid position-absolute img-three ">
+                              <div class="d-flex flex-column justify-content-center h-100 text-white align-items-center">
+                                <h2 class="mb-0 fs-1 fw-bold">12</h2>
+                                <p class="mb-0 fs-5 text-center fw-bold">Years of success</p>
+                              </div>
+                            </div>  
+                            <div class="img_four-box position-absolute text-center ">
+                                <img src="assets/images/quality_6404409.png" alt="image-4" class="img-fluid img-four">
+                            </div>
+                            <div class="img_five-box position-absolute text-center ">
+                                <img src="assets/images/quality_6404409.png" alt="image-4" class="img-fluid img-five">
+                            </div>
+
+                        </div>
+
                     </div>
 
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 about_content ">
@@ -201,7 +228,7 @@
                             <span class="title-2">Transportation <br></span> Service
                         </h3>
 
-                        <div class="about_text  bg-secondary">
+                        <div class="about_text  bg-">
                             <p class=""><b>
                                     Accusa mnis iste natus error sit volupta toloris onder boura gist onpores tem accusa
                                     nulla pariatur.
@@ -212,17 +239,528 @@
                                 voluptatem accusa nulla pariatur.
                             </p>
 
-                            <p class="text-start fst-italic quote bg-dark">
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br>
+                            <p class="text-start fst-italic ps-5 quote bg-">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum. <br>
                                 <span class="ms-5">Tom Anderson,
                                     Founder & CEO</span>
                             </p>
                         </div>
 
+                        <a href=""
+                            class="btn btn-custom  border-0 text-white text-start d-flex align-items-center justify-content-between rounded-3 fw-bold mt-5 gap-4">Read
+                            More <span class=" fw-normal btn-arrow rounded-3">></span>
+                        </a>
+
                     </div>
                 </div>
             </div>
         </div>
+        <!-- About Section -->
+
+        <!-- Counts section -->
+        <div class="count container-fluid px-0 mw-100 position-relative">
+            <div class=" text-center video-box">
+
+            </div>
+
+            <div class="count-content">
+                <div class="container py-5 px-5">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 text-center text-white">
+                            <h2 class="fs-1 fw-bolder mb-4 title-3">24</h2>
+                            <h3 class="fs-4 fw-bold mb-4">Total Countries</h3>
+                            <p>accusa mnis iste natus error sit vol uptatem accusa nulla</p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 text-center text-white">
+                            <h2 class="fs-1 fw-bolder mb-4 title-3">24</h2>
+                            <h3 class="fs-4 fw-bold mb-4">Total Countries</h3>
+                            <p>accusa mnis iste natus error sit vol uptatem accusa nulla</p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 text-center text-white">
+                            <h2 class="fs-1 fw-bolder mb-4 title-3">24</h2>
+                            <h3 class="fs-4 fw-bold mb-4">Total Countries</h3>
+                            <p>accusa mnis iste natus error sit vol uptatem accusa nulla</p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 text-center text-white">
+                            <h2 class="fs-1 fw-bolder mb-4 title-3">24</h2>
+                            <h3 class="fs-4 fw-bold mb-4">Total Countries</h3>
+                            <p>accusa mnis iste natus error sit vol uptatem accusa nulla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-wrapper position-absolute">
+                <div class="  box-end position-absolute">
+                </div>
+            </div>
+        </div>
+        <!-- Counts section -->
+
+        <!-- Our service section -->
+        <div class="container-fluid text-center our-service mt-4">
+            <h5 class="title-3 fs-5 fw-bold">Our Service</h5>
+            <h2 class="fs-1 fw-bolder
+            ">We Find the <span class="title-2">Destination</span><br>
+                for Your <span class="title-2">Product</span>
+            </h2>
+
+            <div class="m-0 short text-center "></div>
+
+            <div class="container px-lg-5 mt-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+                        <div class="our-service-item text-start border">
+                            <a href="" class="service-item">
+                                <div
+                                    class="d-flex justify-content-between gap-4 pb-5 align-items-center our-service-head">
+                                    <div class="service_img-1 our-service-box text-center">
+                                        <img src="assets/images/premium_8905179.png" alt=""
+                                            class="img-fluid our-service-img">
+                                    </div>
+                                    <h4 class="fs- service_head align-middle pt-2">Premium <br> Transportation</h4>
+                                </div>
+
+                                <p class="mb-4 pt-5 service_content">Rus error sit voluptatem accusa mnis iste natus
+                                    error sit volup ris niesisi ut ali quip ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit
+                                </p>
+
+                                <button
+                                    class="btn service_btn text-start d-flex align-items-center w-100 fw-bold gap-3">
+                                    <span class=" fw-normal service_arrow ">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                    Read More
+                                </button>
+                            </a>
+
+
+                        </div>
+                        <div class="divider"></div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+                        <div class="our-service-item text-start border">
+                            <a href="" class="service-item">
+                                <div class="d-flex justify-content-between gap-4  pb-5  our-service-head">
+                                    <div class="service_img-1 our-service-box   text-center">
+                                        <img src="assets/images/premium_8905179.png" alt=""
+                                            class="img-fluid our-service-img">
+                                    </div>
+                                    <h4 class="fs- service_head ">Premium <br> Transportation</h4>
+                                </div>
+
+                                <p class="mb-4 pt-5 service_content">Rus error sit voluptatem accusa mnis iste natus
+                                    error sit volup ris niesisi ut ali quip ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit
+                                </p>
+
+                                <button
+                                    class="btn service_btn text-start d-flex align-items-center w-100 fw-bold gap-3">
+                                    <span class=" fw-normal service_arrow ">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                    Read More
+                                </button>
+                            </a>
+
+
+                        </div>
+                        <div class="divider"></div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+                        <div class="our-service-item text-start border">
+                            <a href="" class="service-item">
+                                <div class="d-flex justify-content-between gap-4  pb-5  our-service-head">
+                                    <div class="service_img-1 our-service-box   text-center">
+                                        <img src="assets/images/premium_8905179.png" alt=""
+                                            class="img-fluid our-service-img">
+                                    </div>
+                                    <h4 class="fs- service_head ">Premium <br> Transportation</h4>
+                                </div>
+
+                                <p class="mb-4 pt-5 service_content">Rus error sit voluptatem accusa mnis iste natus
+                                    error sit volup ris niesisi ut ali quip ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit
+                                </p>
+
+                                <button
+                                    class="btn service_btn text-start d-flex align-items-center w-100 fw-bold gap-3">
+                                    <span class=" fw-normal service_arrow ">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                    Read More
+                                </button>
+                            </a>
+
+
+                        </div>
+                        <div class="divider"></div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+                        <div class="our-service-item text-start border">
+                            <a href="" class="service-item">
+                                <div class="d-flex justify-content-between gap-4  pb-5  our-service-head">
+                                    <div class="service_img-1 our-service-box   text-center">
+                                        <img src="assets/images/premium_8905179.png" alt=""
+                                            class="img-fluid our-service-img">
+                                    </div>
+                                    <h4 class="fs- service_head ">Premium <br> Transportation</h4>
+                                </div>
+
+                                <p class="mb-4 pt-5 service_content">Rus error sit voluptatem accusa mnis iste natus
+                                    error sit volup ris niesisi ut ali quip ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit
+                                </p>
+
+                                <button
+                                    class="btn service_btn text-start d-flex align-items-center w-100 fw-bold gap-3">
+                                    <span class=" fw-normal service_arrow ">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                    Read More
+                                </button>
+                            </a>
+
+
+                        </div>
+                        <div class="divider"></div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+                        <div class="our-service-item text-start border">
+                            <a href="" class="service-item">
+                                <div class="d-flex justify-content-between gap-4  pb-5  our-service-head">
+                                    <div class="service_img-1 our-service-box   text-center">
+                                        <img src="assets/images/premium_8905179.png" alt=""
+                                            class="img-fluid our-service-img">
+                                    </div>
+                                    <h4 class="fs- service_head ">Premium <br> Transportation</h4>
+                                </div>
+
+                                <p class="mb-4 pt-5 service_content">Rus error sit voluptatem accusa mnis iste natus
+                                    error sit volup ris niesisi ut ali quip ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit
+                                </p>
+
+                                <button
+                                    class="btn service_btn text-start d-flex align-items-center w-100 fw-bold gap-3">
+                                    <span class=" fw-normal service_arrow ">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                    Read More
+                                </button>
+                            </a>
+
+
+                        </div>
+                        <div class="divider"></div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+                        <div class="our-service-item text-start border">
+                            <a href="" class="service-item">
+                                <div class="d-flex justify-content-between gap-4  pb-5  our-service-head">
+                                    <div class="service_img-1 our-service-box   text-center">
+                                        <img src="assets/images/premium_8905179.png" alt=""
+                                            class="img-fluid our-service-img">
+                                    </div>
+                                    <h4 class="fs- service_head ">Premium <br> Transportation</h4>
+                                </div>
+
+                                <p class="mb-4 pt-5 service_content">Rus error sit voluptatem accusa mnis iste natus
+                                    error sit volup ris niesisi ut ali quip ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit
+                                </p>
+
+                                <button
+                                    class="btn service_btn text-start d-flex align-items-center w-100 fw-bold gap-3">
+                                    <span class=" fw-normal service_arrow ">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                    Read More
+                                </button>
+                            </a>
+
+
+                        </div>
+                        <div class="divider"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our service section -->
+
+
+        <!-- Works section -->
+        <div class="bg-dark work-section text-center">
+            <div class="mb-5 pb-">
+                <h5 class="title-3 fs-5 fw-bold">How it works</h5>
+                <h2 class="fs-1 fw-bolder text-white mb-3
+            ">World Class <span class="title-2">Logistics</span><br>
+                    and <span class="title-2">Transportation</span>
+                </h2>
+
+                <div class=" short text-center mb-5"></div>
+            </div>
+
+            <div class="container px-5 pt-4 pb-3">
+                <div class="row px-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <div class="d-flex  flex-column flex-wrap work_box">
+                            <div class="work_class  text-center bg-white position-relative">
+                                <div class="work_no  rounded-circle position-absolute"><span
+                                        class="fw-bold fs-4 align-middle text-white">01</span>
+                                </div>
+                                <h3 class="fw-bold mb-4 fs-5">Pick A Service</h3>
+                                <p class="text-dark m-0">Ynim ad minim veniam ex ercitation pllamycp.</p>
+                                <!-- <span class="bg-dark text-white rounded-circle px-3 py-1 mx-2 h3">2</span> -->
+                            </div>
+
+                            <div class="work_class  text-center bg-white position-relative mb-5">
+                                <div class="work_no  rounded-circle position-absolute"><span
+                                        class="fw-bold fs-4 align-middle text-white">01</span>
+                                </div>
+                                <h3 class="fw-bold mb-4 fs-5">Pick A Service</h3>
+                                <p class="text-dark m-0">Ynim ad minim veniam ex ercitation pllamycp.</p>
+                                <!-- <span class="bg-dark text-white rounded-circle px-3 py-1 mx-2 h3">2</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 work-container">
+                        <div class="work-image ">
+                            <img src="assets/images/process-img.png" alt="" class="work_img">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <div class="d-flex  flex-column flex-wrap work_box">
+                            <div class="work_class  text-center bg-white position-relative">
+                                <div class="work_no  rounded-circle position-absolute"><span
+                                        class="fw-bold fs-4 align-middle text-white">01</span>
+                                </div>
+                                <h3 class="fw-bold mb-4 fs-5">Pick A Service</h3>
+                                <p class="text-dark m-0">Ynim ad minim veniam ex ercitation pllamycp.</p>
+                                <!-- <span class="bg-dark text-white rounded-circle px-3 py-1 mx-2 h3">2</span> -->
+                            </div>
+
+                            <div class="work_class  text-center bg-white position-relative mb-5">
+                                <div class="work_no  rounded-circle position-absolute"><span
+                                        class="fw-bold fs-4 align-middle text-white">01</span>
+                                </div>
+                                <h3 class="fw-bold mb-4 fs-5">Pick A Service</h3>
+                                <p class="text-dark m-0">Ynim ad minim veniam ex ercitation pllamycp.</p>
+                                <!-- <span class="bg-dark text-white rounded-circle px-3 py-1 mx-2 h3">2</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Testimonials section -->
+        <div class="testimonial ms-lg-5 ms-sm-0 px-sm-3">
+            <div class="container-fluid ps-sm- ">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 pe-lg-4">
+                        <div class="mb-5 pb-">
+                            <h5 class="title-3 fs-5 fw-bold">Testimonials</h5>
+                            <h1 class="fs-1 fw-bolder text-dark mb-3">What <span class="title-2">Clients</span><br>
+                                Say About <span class="title-2">Us</span>
+                            </h1>
+
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                fugiatmnis iste natus error sit voluptatem accusa mnis</p>
+                        </div>
+
+                        <div>
+                            <a href=""
+                                class="bg-white  rounded-circle px-3 py-1 mx-2 h3 border title-3 testimonial-arrow">
+                                <</a>
+                                    <a href=""
+                                        class="bg-white  rounded-circle px-3 py-1 mx-2 h3 title-3 border testimonial-arrow">
+                                        >
+                                    </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12  px-4">
+                        <div class="testimonial-quotes mt-sm-4">
+                            <div class="row gap-4">
+                                <div class="user col-lg-5 col-md-6 col-sm-12 col-xs-12 p-4">
+                                    <img src="assets/images/images (2).png" alt="" class="img-fluid quotes-image mb-4">
+
+                                    <p class="mb-4 lh-lg">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore eu
+                                        fugiatmnis iste natus error sit voluptatem accusa mnis
+                                    </p>
+
+                                    <div class="d-flex gap-3 align-items-center ">
+                                        <div class="user-box">
+                                            <img src="assets/images/pexels-stefan-stefancik-91227.jpg" alt=""
+                                                class="img-fluid user-img ">
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0">Jewel Khan</h5>
+                                            <p class="m-0">Traveller</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="user col-lg-5 col-md-6 col-sm-12 col-xs-12 p-4 ">
+                                    <img src="assets/images/images (2).png" alt="" class="img-fluid quotes-image mb-4">
+
+                                    <p class="mb-4 lh-lg">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore eu
+                                        fugiatmnis iste natus error sit voluptatem accusa mnis
+                                    </p>
+
+                                    <div class="d-flex gap-3 align-items-center ">
+                                        <div class="user-box">
+                                            <img src="assets/images/pexels-stefan-stefancik-91227.jpg" alt=""
+                                                class="img-fluid user-img ">
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0">Jewel Khan</h5>
+                                            <p class="m-0">Traveller</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form section -->
+        <div class="form-section py-5">
+            <div class="container px-lg-5 ">
+                <div class="row px-3">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-2 bg-white py-5  form_col">
+                        <div class="form bg-white ">
+                            <h5 class="title-3 fs-5 fw-bold">Know the price</h5>
+                            <h1 class="fs-1 fw-bolder text-dark mb-3">Get a Free Quote
+                            </h1>
+                            <form action="" method="">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1 mb-form">
+                                        <input type="text" name="first_name" id="first_name" placeholder="Your Name"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="email" name="email" id="email" placeholder="Email address"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="number" name="number" id="number" placeholder="Phone number"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="text" name="subject" id="subject" placeholder="Subject"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="text" name="pickup" id="pickup" placeholder="Pickup City"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="text" name="delivery" id="delivery" placeholder="Delivery city"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="text" name="freight" id="freight" placeholder="Freight type"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="text" name="incoterms" id="incoterms" placeholder="Incoterms"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="number" name="width" id="width" placeholder="Width"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="number" name="height" id="height" placeholder="Height"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="number" name="length" id="length" placeholder="Length"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1  mb-form">
+                                        <input type="number" name="weight" id="weight" placeholder="Weight"
+                                            class="form-control p-3">
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1 fs_form-check d-flex align-items-center gap-2 mt-3">
+                                        <input type="checkbox" name="check_1" id="check_1" class="check_list">
+                                        <label for="check_1">First checkbox</label>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1 d-flex align-items-center fs_form-check gap-2 mt-3">
+                                        <input type="checkbox" name="check_1" id="check_1" class="check_list">
+                                        <label for="check_11">First checkbox</label>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1 d-flex align-items-center fs_form-check gap-2 mt-3">
+                                        <input type="checkbox" name="check_1" id="check_1" class="check_list">
+                                        <label for="check_11">First checkbox</label>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-1 mt-3 d-flex align-items-center fs_form-check gap-2 ">
+                                        <input type="checkbox" name="check_1" id="check_1" class="check_list">
+                                        <label for="check_11">First checkbox</label>
+                                    </div>
+                                </div>
+
+                                <a href=""
+                                    class="btn btn-custom btn_form border-0 text-white text-start d-flex align-items-center justify-content-between rounded-3 fw-bold mt-5 gap-4">Get
+                                    a quote <span class=" fw-normal btn-arrow rounded-3">></span>
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-white">
+                        <h5>Frequently asked questions</h5>
+                        <h2 class="fs-1 fw-bold">Get the best logistic
+                            service
+                        </h2>
+
+                        <ul>
+                            <li>
+                                <h6>How to get I parcel?</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Form section -->
+
 
     </div>
 
@@ -231,7 +769,11 @@
 
 
 
-
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--Initialize Bootstrap Carousel-->
+    <script src="assets/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
 
 </body>
 

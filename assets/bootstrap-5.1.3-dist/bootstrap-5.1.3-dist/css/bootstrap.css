@@ -6971,6 +6971,10 @@ textarea.form-control-lg {
   height: auto !important;
 }
 
+.h-fit {
+  height: fit-content !important;
+}
+
 .mh-100 {
   max-height: 100% !important;
 }
